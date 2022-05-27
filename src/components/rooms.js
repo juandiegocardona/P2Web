@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from "react";
 import Devices from "./devices";
-import sala from "../assets/sala.png";
-import comedor from "../assets/comedor.png";
-import cocina from "../assets/cocina.jpg";
+import sala from "../assets/livingRoom.png";
+import comedor from "../assets/dinningRoom.png";
+import cocina from "../assets/kitchen.jpg";
 import { FormattedMessage } from 'react-intl';
 
 function Rooms (props) {

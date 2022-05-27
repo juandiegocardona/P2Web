@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from "react";
 import Rooms from "./rooms";
-import casa from "../assets/casa.png";
-import apto from "../assets/apto.png";
+import casa from "../assets/house.png";
+import apto from "../assets/apartment.png";
 import { FormattedMessage } from 'react-intl';
 
 
