@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from "react";
 import Rooms from "./rooms";
-import casa from "../assets/house.png";
-import apto from "../assets/apartment.png";
+import house from "../assets/house.png";
+import apartment from "../assets/apartment.png";
 import { FormattedMessage } from 'react-intl';
 
 
@@ -40,7 +40,7 @@ function Spaces () {
                     return(
                         <div className="col-3" key={e.id}>
                             <div className="card" onClick={() => spaceSelector(e)}>
-                                <img src={String(e.name).startsWith("Casa")? casa : apto} className="card-img-top" alt={e.name} style={{height: "15rem"}}/>
+                                <img src={String(e.name).startsWith("Casa")? house : apartment} className="card-img-top" alt={e.name} style={{height: "15rem"}}/>
                                 <div className="card-body">
                                     <h5 className="card-title"><FormattedMessage id={e.name}/></h5>
                                     <p className="card-text">{e.address}</p>

@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from "react";
 import Devices from "./devices";
-import sala from "../assets/livingRoom.png";
-import comedor from "../assets/dinningRoom.png";
-import cocina from "../assets/kitchen.jpg";
+import livingRoom from "../assets/livingRoom.png";
+import dinningRoom from "../assets/dinningRoom.png";
+import kitchen from "../assets/kitchen.jpg";
 import { FormattedMessage } from 'react-intl';
 
 function Rooms (props) {
@@ -36,11 +36,11 @@ function Rooms (props) {
     }
     function imageSelector (room) {
         if(room === "Living room") {
-            return sala;
+            return livingRoom;
         } else if(room === "Kitchen") {
-            return cocina;
+            return kitchen;
         } else if(room === "Dinner room") {
-            return comedor;
+            return dinningRoom;
         }
     }
 
